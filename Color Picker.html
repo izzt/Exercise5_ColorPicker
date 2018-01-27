@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Exercise 5_Color Picker</title>
+    <link href="Color%20Picker.css" rel="stylesheet">
+
+</head>
+<body>
+    <header><h1>CSS Color Displayer</h1></header>
+    
+	<div>
+		Select a number from 0 to 255 for each color value:
+	</div><br>
+    
+    <form>
+        <fieldset class="fieldset1">
+            <Label>Red: </Label><br>
+            <input type="number" name="color" id="colorRed" >
+        </fieldset><br>
+        
+        <fieldset class="fieldset1">
+            <Label>Green: <br></Label>
+            <input type="number" name="color" id="colorGreen" >
+        </fieldset><br>
+         	
+        <fieldset class="fieldset1">
+            <Label>Blue: <br></Label>
+            <input type="number" name="color" id="colorBlue" >
+        </fieldset><br>
+        
+        <button id="btn" >Show Me the Color</button>
+        
+        <button type ="reset" onclick="clearAll" id="reset">Clear All</button><br><br>
+
+	   <input type= "text" id="box">
+     
+    </form>
+
+	<script src="Color%20Picker.js"></script>
+
+</body>
+</html>

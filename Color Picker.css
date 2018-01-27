@@ -1,0 +1,24 @@
+body {
+    background-image: url(IMAGES/color3.jpg);
+    font-family:"Trebuchet MS", Segoe, sans-serif;
+    margin:40px;
+    font-size: 1.2em;
+}
+div:first-child {
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px;
+}
+#box {
+    width: 300px;
+    height: 38px;
+}
+
+.fieldset1{
+    width: 50px;
+    height: 45px;
+    border-color: black;
+    border-bottom-style: solid;
+
+}
